@@ -14,6 +14,9 @@ public abstract class BasePage {
 	@FindBy(xpath = "//div[text()='Tasks']")
 	private WebElement taskEle;
 	
+	@FindBy(xpath = "//div[text()='Users']")
+	private WebElement UsersEle;
+	
 	public BasePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
@@ -25,5 +28,8 @@ public abstract class BasePage {
 	public WebElement getTask() {
 		return taskEle;
 		
+	}
+	public WebElement getUsers() {
+		return UsersEle;
 	}
 }

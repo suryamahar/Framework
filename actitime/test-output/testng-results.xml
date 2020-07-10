@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="1" failed="0" ignored="0" total="2" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Suite Execution starts: Mon Jul 06 20:14:44 IST 2020]]>
+      <![CDATA[Suite Execution starts: Thu Jul 09 16:48:31 IST 2020]]>
     </line>
     <line>
       <![CDATA[Chrome Browser launched]]>
@@ -11,7 +11,7 @@
       <![CDATA[http://localhost/login.do url navigated]]>
     </line>
     <line>
-      <![CDATA[validLoginscript execution starts: Mon Jul 06 20:14:51 IST 2020]]>
+      <![CDATA[validLoginscript execution starts: Thu Jul 09 16:48:37 IST 2020]]>
     </line>
     <line>
       <![CDATA[validLogin script is passed]]>
@@ -20,22 +20,28 @@
       <![CDATA[Browser Closed]]>
     </line>
     <line>
-      <![CDATA[Chrome Browser launched]]>
+      <![CDATA[invalidLoginscript execution starts: Thu Jul 09 16:48:52 IST 2020]]>
     </line>
     <line>
-      <![CDATA[http://localhost/login.do url navigated]]>
+      <![CDATA[invalidLogin script is skipped]]>
     </line>
     <line>
-      <![CDATA[invalidLoginscript execution starts: Mon Jul 06 20:15:05 IST 2020]]>
+      <![CDATA[Suite Execution ends: Thu Jul 09 16:48:52 IST 2020]]>
     </line>
     <line>
-      <![CDATA[invalidLogin script is passed]]>
+      <![CDATA[Total scripts executed: 1]]>
     </line>
     <line>
-      <![CDATA[Browser Closed]]>
+      <![CDATA[Total scripts passed: 1]]>
+    </line>
+    <line>
+      <![CDATA[Total scripts failed: 0]]>
+    </line>
+    <line>
+      <![CDATA[Total scripts skipped: 1]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="25490" started-at="2020-07-06T20:14:44 IST" finished-at="2020-07-06T20:15:10 IST">
+  <suite name="Suite" duration-ms="21303" started-at="2020-07-09T16:48:31 IST" finished-at="2020-07-09T16:48:52 IST">
     <groups>
       <group name="Functional">
         <method signature="LoginTest.invalidLogin()[pri:2, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="invalidLogin" class="com.actitime.scripts.LoginTest"/>
@@ -44,9 +50,9 @@
         <method signature="LoginTest.validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="validLogin" class="com.actitime.scripts.LoginTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Test" duration-ms="25490" started-at="2020-07-06T20:14:44 IST" finished-at="2020-07-06T20:15:10 IST">
+    <test name="Test" duration-ms="21303" started-at="2020-07-09T16:48:31 IST" finished-at="2020-07-09T16:48:52 IST">
       <class name="com.actitime.scripts.LoginTest">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="preCondition" is-config="true" duration-ms="6716" started-at="2020-07-06T20:14:44 IST" finished-at="2020-07-06T20:14:51 IST">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="preCondition" is-config="true" duration-ms="6534" started-at="2020-07-09T16:48:31 IST" finished-at="2020-07-09T16:48:37 IST">
           <params>
             <param index="0">
               <value>
@@ -68,24 +74,24 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="validLogin" duration-ms="3710" started-at="2020-07-06T20:14:51 IST" finished-at="2020-07-06T20:14:55 IST">
+        <test-method status="PASS" signature="validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="validLogin" duration-ms="1114" started-at="2020-07-09T16:48:37 IST" finished-at="2020-07-09T16:48:38 IST">
           <reporter-output>
             <line>
-              <![CDATA[validLoginscript execution starts: Mon Jul 06 20:14:51 IST 2020]]>
+              <![CDATA[validLoginscript execution starts: Thu Jul 09 16:48:37 IST 2020]]>
             </line>
             <line>
               <![CDATA[validLogin script is passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="postCondition" is-config="true" duration-ms="4349" started-at="2020-07-06T20:14:55 IST" finished-at="2020-07-06T20:14:59 IST">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="postCondition" is-config="true" duration-ms="4334" started-at="2020-07-09T16:48:38 IST" finished-at="2020-07-09T16:48:43 IST">
           <reporter-output>
             <line>
               <![CDATA[Browser Closed]]>
             </line>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="preCondition" is-config="true" duration-ms="5824" started-at="2020-07-06T20:14:59 IST" finished-at="2020-07-06T20:15:05 IST">
+        <test-method status="FAIL" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="preCondition" is-config="true" duration-ms="9247" started-at="2020-07-09T16:48:43 IST" finished-at="2020-07-09T16:48:52 IST">
           <params>
             <param index="0">
               <value>
@@ -98,30 +104,303 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created
+from chrome not reachable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GEU712U', ip: '192.168.29.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x004D9563+2725219]
+Ordinal0 [0x003D8551+1672529]
+Ordinal0 [0x002C0202+524802]
+Ordinal0 [0x002B99B2+498098]
+Ordinal0 [0x002BA09B+499867]
+Ordinal0 [0x002BAFF5+503797]
+Ordinal0 [0x002B6994+485780]
+Ordinal0 [0x002C0FF0+528368]
+Ordinal0 [0x0026D6C9+186057]
+Ordinal0 [0x0026CA3D+182845]
+Ordinal0 [0x0026A94B+174411]
+Ordinal0 [0x00252528+75048]
+Ordinal0 [0x002535A0+79264]
+Ordinal0 [0x00253539+79161]
+Ordinal0 [0x003ED607+1758727]
+GetHandleVerifier [0x005F6546+1050150]
+GetHandleVerifier [0x005F6291+1049457]
+GetHandleVerifier [0x006010D7+1094071]
+GetHandleVerifier [0x005F6B46+1051686]
+Ordinal0 [0x003E5B06+1727238]
+Ordinal0 [0x003EEB7B+1764219]
+Ordinal0 [0x003EECE3+1764579]
+Ordinal0 [0x00404C05+1854469]
+BaseThreadInitThunk [0x754F6359+25]
+RtlGetAppContainerNamedObjectPath [0x77257C24+228]
+RtlGetAppContainerNamedObjectPath [0x77257BF4+180]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GEU712U', ip: '192.168.29.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x004D9563+2725219]
+Ordinal0 [0x003D8551+1672529]
+Ordinal0 [0x002C0202+524802]
+Ordinal0 [0x002B99B2+498098]
+Ordinal0 [0x002BA09B+499867]
+Ordinal0 [0x002BAFF5+503797]
+Ordinal0 [0x002B6994+485780]
+Ordinal0 [0x002C0FF0+528368]
+Ordinal0 [0x0026D6C9+186057]
+Ordinal0 [0x0026CA3D+182845]
+Ordinal0 [0x0026A94B+174411]
+Ordinal0 [0x00252528+75048]
+Ordinal0 [0x002535A0+79264]
+Ordinal0 [0x00253539+79161]
+Ordinal0 [0x003ED607+1758727]
+GetHandleVerifier [0x005F6546+1050150]
+GetHandleVerifier [0x005F6291+1049457]
+GetHandleVerifier [0x006010D7+1094071]
+GetHandleVerifier [0x005F6B46+1051686]
+Ordinal0 [0x003E5B06+1727238]
+Ordinal0 [0x003EEB7B+1764219]
+Ordinal0 [0x003EECE3+1764579]
+Ordinal0 [0x00404C05+1854469]
+BaseThreadInitThunk [0x754F6359+25]
+RtlGetAppContainerNamedObjectPath [0x77257C24+228]
+RtlGetAppContainerNamedObjectPath [0x77257BF4+180]
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.actitime.generic.BrowserFactory.launchBrowser(BrowserFactory.java:14)
+at com.actitime.generic.BaseLib.preCondition(BaseLib.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
-            <line>
-              <![CDATA[Chrome Browser launched]]>
-            </line>
-            <line>
-              <![CDATA[http://localhost/login.do url navigated]]>
-            </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="invalidLogin()[pri:2, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="invalidLogin" duration-ms="474" started-at="2020-07-06T20:15:05 IST" finished-at="2020-07-06T20:15:05 IST">
+        <test-method status="SKIP" signature="invalidLogin()[pri:2, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="invalidLogin" duration-ms="0" started-at="2020-07-09T16:48:52 IST" finished-at="2020-07-09T16:48:52 IST">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created
+from chrome not reachable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GEU712U', ip: '192.168.29.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x004D9563+2725219]
+Ordinal0 [0x003D8551+1672529]
+Ordinal0 [0x002C0202+524802]
+Ordinal0 [0x002B99B2+498098]
+Ordinal0 [0x002BA09B+499867]
+Ordinal0 [0x002BAFF5+503797]
+Ordinal0 [0x002B6994+485780]
+Ordinal0 [0x002C0FF0+528368]
+Ordinal0 [0x0026D6C9+186057]
+Ordinal0 [0x0026CA3D+182845]
+Ordinal0 [0x0026A94B+174411]
+Ordinal0 [0x00252528+75048]
+Ordinal0 [0x002535A0+79264]
+Ordinal0 [0x00253539+79161]
+Ordinal0 [0x003ED607+1758727]
+GetHandleVerifier [0x005F6546+1050150]
+GetHandleVerifier [0x005F6291+1049457]
+GetHandleVerifier [0x006010D7+1094071]
+GetHandleVerifier [0x005F6B46+1051686]
+Ordinal0 [0x003E5B06+1727238]
+Ordinal0 [0x003EEB7B+1764219]
+Ordinal0 [0x003EECE3+1764579]
+Ordinal0 [0x00404C05+1854469]
+BaseThreadInitThunk [0x754F6359+25]
+RtlGetAppContainerNamedObjectPath [0x77257C24+228]
+RtlGetAppContainerNamedObjectPath [0x77257BF4+180]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GEU712U', ip: '192.168.29.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x004D9563+2725219]
+Ordinal0 [0x003D8551+1672529]
+Ordinal0 [0x002C0202+524802]
+Ordinal0 [0x002B99B2+498098]
+Ordinal0 [0x002BA09B+499867]
+Ordinal0 [0x002BAFF5+503797]
+Ordinal0 [0x002B6994+485780]
+Ordinal0 [0x002C0FF0+528368]
+Ordinal0 [0x0026D6C9+186057]
+Ordinal0 [0x0026CA3D+182845]
+Ordinal0 [0x0026A94B+174411]
+Ordinal0 [0x00252528+75048]
+Ordinal0 [0x002535A0+79264]
+Ordinal0 [0x00253539+79161]
+Ordinal0 [0x003ED607+1758727]
+GetHandleVerifier [0x005F6546+1050150]
+GetHandleVerifier [0x005F6291+1049457]
+GetHandleVerifier [0x006010D7+1094071]
+GetHandleVerifier [0x005F6B46+1051686]
+Ordinal0 [0x003E5B06+1727238]
+Ordinal0 [0x003EEB7B+1764219]
+Ordinal0 [0x003EECE3+1764579]
+Ordinal0 [0x00404C05+1854469]
+BaseThreadInitThunk [0x754F6359+25]
+RtlGetAppContainerNamedObjectPath [0x77257C24+228]
+RtlGetAppContainerNamedObjectPath [0x77257BF4+180]
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at com.actitime.generic.BrowserFactory.launchBrowser(BrowserFactory.java:14)
+at com.actitime.generic.BaseLib.preCondition(BaseLib.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
             <line>
-              <![CDATA[invalidLoginscript execution starts: Mon Jul 06 20:15:05 IST 2020]]>
+              <![CDATA[invalidLogin script is skipped]]>
             </line>
             <line>
-              <![CDATA[invalidLogin script is passed]]>
+              <![CDATA[Suite Execution ends: Thu Jul 09 16:48:52 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[Total scripts executed: 1]]>
+            </line>
+            <line>
+              <![CDATA[Total scripts passed: 1]]>
+            </line>
+            <line>
+              <![CDATA[Total scripts failed: 0]]>
+            </line>
+            <line>
+              <![CDATA[Total scripts skipped: 1]]>
             </line>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="postCondition" is-config="true" duration-ms="4356" started-at="2020-07-06T20:15:05 IST" finished-at="2020-07-06T20:15:10 IST">
+        <test-method status="SKIP" signature="postCondition()[pri:0, instance:com.actitime.scripts.LoginTest@1e6d1014]" name="postCondition" is-config="true" duration-ms="-1594293532480" started-at="2020-07-09T16:48:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
-            <line>
-              <![CDATA[Browser Closed]]>
-            </line>
           </reporter-output>
         </test-method> <!-- postCondition -->
       </class> <!-- com.actitime.scripts.LoginTest -->

@@ -10,7 +10,6 @@
     <classes>
       <class name="com.actitime.scripts.LoginTest">
         <methods>
-          <include name="validLogin"/>
           <include name="postCondition"/>
           <include name="preCondition"/>
           <include name="invalidLogin"/>

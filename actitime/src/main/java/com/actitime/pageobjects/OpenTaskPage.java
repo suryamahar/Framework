@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class OpenTaskPage {
+public class OpenTaskPage extends BasePage {
 	
 	@FindBy(linkText = "Completed Tasks")
 	private WebElement completedTaskLink;
@@ -30,6 +30,7 @@ public class OpenTaskPage {
 	private WebElement successMsgEle;   //same element for creating task and completed task msg
 	
 	public OpenTaskPage(WebDriver driver) {
+		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 	

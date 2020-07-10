@@ -9,11 +9,131 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">25,490</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">21,303</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.actitime.scripts.LoginTest</td><td><a href="#m0">invalidLogin</a></td><td rowspan="1">1594046705241</td><td rowspan="1">474</td></tr><tr class="passedeven"><td><a href="#m1">validLogin</a></td><td rowspan="1">1594046691350</td><td rowspan="1">3710</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.actitime.scripts.LoginTest</td><td><a href="#m0">preCondition</a></td><td rowspan="1">1594293523213</td><td rowspan="1">9247</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.actitime.scripts.LoginTest</td><td><a href="#m1">postCondition</a></td><td rowspan="1">1594293532480</td><td rowspan="1">-1594293532480</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.actitime.scripts.LoginTest</td><td><a href="#m2">invalidLogin</a></td><td rowspan="1">1594293532466</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.actitime.scripts.LoginTest</td><td><a href="#m3">validLogin</a></td><td rowspan="1">1594293517756</td><td rowspan="1">1114</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.actitime.scripts.LoginTest#invalidLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">invalidLoginscript execution starts: Mon Jul 06 20:15:05 IST 2020<br/>invalidLogin script is passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.actitime.scripts.LoginTest#validLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">validLoginscript execution starts: Mon Jul 06 20:14:51 IST 2020<br/>validLogin script is passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.actitime.scripts.LoginTest#preCondition</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>chrome</td><td>http://localhost/login.do</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GEU712U&apos;, ip: &apos;192.168.29.59&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004D9563+2725219]
+	Ordinal0 [0x003D8551+1672529]
+	Ordinal0 [0x002C0202+524802]
+	Ordinal0 [0x002B99B2+498098]
+	Ordinal0 [0x002BA09B+499867]
+	Ordinal0 [0x002BAFF5+503797]
+	Ordinal0 [0x002B6994+485780]
+	Ordinal0 [0x002C0FF0+528368]
+	Ordinal0 [0x0026D6C9+186057]
+	Ordinal0 [0x0026CA3D+182845]
+	Ordinal0 [0x0026A94B+174411]
+	Ordinal0 [0x00252528+75048]
+	Ordinal0 [0x002535A0+79264]
+	Ordinal0 [0x00253539+79161]
+	Ordinal0 [0x003ED607+1758727]
+	GetHandleVerifier [0x005F6546+1050150]
+	GetHandleVerifier [0x005F6291+1049457]
+	GetHandleVerifier [0x006010D7+1094071]
+	GetHandleVerifier [0x005F6B46+1051686]
+	Ordinal0 [0x003E5B06+1727238]
+	Ordinal0 [0x003EEB7B+1764219]
+	Ordinal0 [0x003EECE3+1764579]
+	Ordinal0 [0x00404C05+1854469]
+	BaseThreadInitThunk [0x754F6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77257C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77257BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.actitime.generic.BrowserFactory.launchBrowser(BrowserFactory.java:14)
+	at com.actitime.generic.BaseLib.preCondition(BaseLib.java:20)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.actitime.scripts.LoginTest#postCondition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.actitime.scripts.LoginTest#invalidLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">invalidLogin script is skipped<br/>Suite Execution ends: Thu Jul 09 16:48:52 IST 2020<br/>Total scripts executed: 1<br/>Total scripts passed: 1<br/>Total scripts failed: 0<br/>Total scripts skipped: 1</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GEU712U&apos;, ip: &apos;192.168.29.59&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004D9563+2725219]
+	Ordinal0 [0x003D8551+1672529]
+	Ordinal0 [0x002C0202+524802]
+	Ordinal0 [0x002B99B2+498098]
+	Ordinal0 [0x002BA09B+499867]
+	Ordinal0 [0x002BAFF5+503797]
+	Ordinal0 [0x002B6994+485780]
+	Ordinal0 [0x002C0FF0+528368]
+	Ordinal0 [0x0026D6C9+186057]
+	Ordinal0 [0x0026CA3D+182845]
+	Ordinal0 [0x0026A94B+174411]
+	Ordinal0 [0x00252528+75048]
+	Ordinal0 [0x002535A0+79264]
+	Ordinal0 [0x00253539+79161]
+	Ordinal0 [0x003ED607+1758727]
+	GetHandleVerifier [0x005F6546+1050150]
+	GetHandleVerifier [0x005F6291+1049457]
+	GetHandleVerifier [0x006010D7+1094071]
+	GetHandleVerifier [0x005F6B46+1051686]
+	Ordinal0 [0x003E5B06+1727238]
+	Ordinal0 [0x003EEB7B+1764219]
+	Ordinal0 [0x003EECE3+1764579]
+	Ordinal0 [0x00404C05+1854469]
+	BaseThreadInitThunk [0x754F6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77257C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77257BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.actitime.generic.BrowserFactory.launchBrowser(BrowserFactory.java:14)
+	at com.actitime.generic.BaseLib.preCondition(BaseLib.java:20)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.actitime.scripts.LoginTest#validLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">validLoginscript execution starts: Thu Jul 09 16:48:37 IST 2020<br/>validLogin script is passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
